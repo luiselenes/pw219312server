@@ -13,8 +13,36 @@ body{
 	border: 1px solid red; 
 	margin: 0px auto;
 	max-width: 1024px;
-
-	
-
-
+}
+header{
+	background: #cddfe9;
+}
+header nav{
+	background: #006fc5;
+	border-radius: 5px;
+	padding: 2px 0px;	
+	width: 99%;
+	margin: 0px auto;
+}
+header nav form{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+header nav form input{
+	border-radius:5px; 
+}
+header nav form input[type="button"]{
+	background: green;
+	border:  1px solid green;
+	color: white;
+}
+header nav ul li{
+	/*border:1px solid blue;*/
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+}
+#logo{
+	margin-top: -150px;
 }
