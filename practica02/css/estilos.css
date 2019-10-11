@@ -1,5 +1,5 @@
 body{
-font-size:16px; /*1em*/
+font-size:15px; /*1em*/
 margin:0px auto;/* centrado pantalla*/
 max-width: 1078px; /*cliente*/
 min-width: 1078px;  /*para que no se desarme a la hora de cambiar el zoom
