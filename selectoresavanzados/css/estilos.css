@@ -1,0 +1,94 @@
+img[alt]{
+    border: 5px solid blue;
+
+}
+/* para modificar desde la ruta comleta */
+img[src="img/logo.png"]{
+    width: 400px;
+}
+/* busca al inicio de la cadena una subcadena */
+img[src^="img/"]{  
+ width: 150px;
+}
+/* busca al final de la cadena una subcadena */
+img[src$="png"]
+{
+    width: 250px;
+}
+/* busca una subcadena  en cualquier parte de la cadena */
+img[src*="mg/"]
+{
+    width: 1000px;
+}
+/* equivalente a:
+.resaltado
+.ingles
+.resaltado */
+/*~ toma las clases como si estubieran separados por espacio */
+article[class~="resaltar"]
+{
+    border: 1px dashed blue;
+}
+article[class~="ingles"]
+{
+    border: 1px dashed blue;
+}
+article[class~="archivos"]
+{
+    border: 1px dashed blue;
+}
+/* va a tomar como una clase individuak */
+article[class|="ingles"]
+{
+    text-align: center;
+}
+/* toma los hijos directos de div */
+div > p
+{
+    color: blue;
+}
+/* toma todos los hijos de div */
+div p{
+    color: red;
+}
+/* modifica la primera p despues del h2   */
+h2 + p {
+    color: gray;
+}
+/* toma todas las p despues de h2 */
+h2 ~ p{
+    color: green;
+}
+/* tama todos las id que se selecionen */
+#resumen,#experimento,#pruebas,#resultados,#concluciones
+{
+    color: red;
+}
+/* todas esepto la que no se quiera */
+section:not(#referencias){
+    color: blue;
+}
+/* cambia todos los que sean impares en la lista */
+li:nth-child(odd)/*impares*/
+{
+    color:green;
+}
+/* cambia todos los que sean pares en la lista */
+li:nth-child(even)/*pares*/
+{
+    color:blue;
+}
+li:nth-child(5)/*quinto elemento de la lista*/
+{
+    color:red;
+}
+li:nth-last-child(1)/*solo el numero 1  contando de el ultimo al primero*/
+{
+    color:purple;
+}
+ /* cambia la primer linea de la etiqueta p */
+p:first-line{
+    color: red;
+    font-weight: bold;
+}
+
