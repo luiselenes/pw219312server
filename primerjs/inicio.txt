@@ -1,0 +1,25 @@
+a=8
+8
+b = 3
+3
+b+8
+11
+function suma (a,b) {return a+b;}
+undefined
+suma
+ƒ suma (a,b) {return a+b;}
+suma(5,9)
+14
+var s = suma
+undefined
+s
+ƒ suma (a,b) {return a+b;}
+s(90,7)
+97
+
+var z = function(a,b){return a+b}  ---funcion anonima porque no se le asigna un nombre  pero si a una variable--
+s
+undefined
+z
+ƒ (a,b){return a+b}
+alert("hola mundo javascript")

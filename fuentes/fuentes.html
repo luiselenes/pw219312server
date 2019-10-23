@@ -1,0 +1,36 @@
+<!-- sistema operativo = comic , arial ,etc   no se utlilizan en web
+graatuitas = google fonts  
+general mente se ponen  sans serif reconmendable
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700i&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        @font-face{
+            font-family: Acme;
+            src: url(Acme/Acme-Regular.ttf);
+        }
+        #txtTextoReferenciado
+        {
+            font-size: 16px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        #txtTextoDescargado{
+            font-family: 'Acme', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <span id="txtTextoReferenciado">
+        Fuente Rubik de google  (Referenciado)
+    </span>
+    <p></p>
+    <spanid id = "txtTextoDescargado">
+            Fuente Rubik de google  (descargarlo)
+    </span>
+</body>
+</html>
