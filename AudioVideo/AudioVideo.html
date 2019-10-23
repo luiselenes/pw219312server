@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Audio Y Video</title>
+    <style>
+        video{
+            border-radius: 5px;   
+            box-shadow: 10px 10px rgba(10, 10, 150,0.4) ;
+            /* genera una sp,brea  10 pixeles a la derecha y 10 pixeles hacia abajo  y el color */
+            margin-right: 15px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    Etiqueta de Audio y Video 
+    <audio controls loop>
+        <!-- loop para que se reprodusca solo al terminar
+        controls para poner los controles  tanto audio como video  -->
+        <source src="audiovideo/audiovideo/media/audio/audiohtml5.mp4">
+    </audio>
+    <video controls preload="auto" loop>
+            <!-- preload "auto"  para que descargue automaticamente sin necesidad de iniciarlo primero-->
+        <source src="audiovideo/audiovideo/media/video/Chrome_ImF.mp4"> 
+        <source src="audiovideo/audiovideo/media/video/Chrome_ImF.ogv">
+        <source src="audiovideo/audiovideo/media/video/Chrome_ImF.webm">
+    </video>
+    <video controls preload="auto">
+            <source src="audiovideo/audiovideo/media/video/html5.mp4"> 
+            <source src="audiovideo/audiovideo/media/video/html5.webm">
+        </video>
+</body>
+</html>
