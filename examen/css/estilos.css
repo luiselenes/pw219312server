@@ -1,0 +1,64 @@
+body{
+	border: 1px solid red;
+	font-size: 16px;
+	margin: 0px auto;
+    max-width: 1024px;
+    
+    text-align: center;
+}
+#seccion1{
+   border-top-width:medium ;
+}
+#seccion1 article{
+    display: inline-block;
+    vertical-align: top;
+   
+    box-sizing: content-box;
+}
+#art1{
+    background: #f1efef;
+    width: 55%;
+   padding-top: 5px;
+    
+}
+#art12{
+    
+    display: inline-block;
+    
+    border: 1px solid red;
+    margin-left:60px;
+    margin-top:80px;
+
+}
+
+#art2{
+    background: #606060;
+    width: 44%;
+    padding-top: 155px;
+    
+}
+#section2{
+    margin: 1px;
+}
+#seccion2 article{
+    display:  inline-block;
+	vertical-align: bottom;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid red;
+    
+}
+
+
+#persona{
+    position: relative;
+    
+    width: 140px;
+    margin-left: 30px;
+    margin-inline-start: 1px;
+}
+#twit{
+    position: relative;
+    width: 50px;
+    margin: 1px;
+}
