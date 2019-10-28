@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>LocalStorage y sessionStorage</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+</head>
+<body>
+    <article id="demo"> 0 </article>
+    <button onclick="aumenta()">Aumenta</button>
+    <button onclick="reinicia()">Reinicias</button>
+    <button onclick="elimina()">Eliminar</button>
+
+
+    <script>
+        var imprimir = function(dato){
+            document.getElementById(demo).innerHTML=dato;
+        }
+        var aumenta= function(){
+            localStorage.cuenta++;
+            imprimir(localStorage.cuenta);
+        }
+
+    //verificar que el navegador soporta Storage
+    if(typeof(Storage)!="undefined")
+    {
+        if(localStorage.cuenta){  //existe en localStorage
+            imprimir(localStorage.cuenta);
+        }
+        else{
+            localStorage.cuenta=0;
+        }
+    }
+    </script>
+</body>
+</html>
