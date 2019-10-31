@@ -1,0 +1,15 @@
+Last login: Thu Oct 31 12:05:18 on console
+CCDM11:~ ccdm11$ cd documents/pw219312server/
+CCDM11:pw219312server ccdm11$ python -m simpleHTTPServer
+/usr/bin/python: No module named simpleHTTPServer
+CCDM11:pw219312server ccdm11$ python -m SimpleHTTPServer
+Serving HTTP on 0.0.0.0 port 8000 ...
+127.0.0.1 - - [31/Oct/2019 12:30:33] code 404, message File not found
+127.0.0.1 - - [31/Oct/2019 12:30:33] "GET /notificaciones.html HTTP/1.1" 404 -
+127.0.0.1 - - [31/Oct/2019 12:30:33] code 404, message File not found
+127.0.0.1 - - [31/Oct/2019 12:30:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [31/Oct/2019 12:30:55] code 404, message File not found
+127.0.0.1 - - [31/Oct/2019 12:30:55] "GET /notificaciones.html HTTP/1.1" 404 -
+127.0.0.1 - - [31/Oct/2019 12:31:18] code 404, message File not found
+127.0.0.1 - - [31/Oct/2019 12:31:18] "GET /pw219312server/notificaciones/notificaciones.html HTTP/1.1" 404 -
+127.0.0.1 - - [31/Oct/2019 12:31:36] "GET /notificaciones/notificaciones.html HTTP/1.1" 200 -
